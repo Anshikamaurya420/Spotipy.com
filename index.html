@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    
+</head>
+<body>
+ 
+ <div class="container flex bg-black">
+
+    <div class="left border" style="position: fixed;">
+        <div class="home  rounded bg-grey m1 ">
+            <div class="logo "><img class="invert" src="logo.svg" alt="logo"></div>
+            <ul>
+                <li style="font-size: 23px;" onclick="homeclick()"><img class="invert" src="home.svg" alt="home">home</li>
+                <li style="font-size: 23px;" onclick="searchclick()"><img  class="invert"src="search.svg" alt="search">search</li>
+            </ul>
+        </div>
+        <div class="library rounded m1  bg-grey "><img class="invert"src="library.svg" alt="library" ><h3>Your Library</h3>
+        <div class="songlist"><img class="invert"src="https://cdn-icons-png.flaticon.com/512/2995/2995038.png
+            " alt="music" >
+        animal song son lo jara
+        <div class="music1">Play Now <img class="invert" src="https://cdn-icons-png.flaticon.com/128/8029/8029490.png" alt="" onclick="main()" ondblclick="stop()"></div></div>
+    
+    
+        <div class="songlist"><img class="invert"src="https://cdn-icons-png.flaticon.com/512/2995/2995038.png
+            " alt="music">
+        animal song son lo jara
+        <div class="music1">Play Now <img class="invert" src="https://cdn-icons-png.flaticon.com/128/8029/8029490.png" alt="" onclick="main()" ondblclick="stop()"></div></div>
+        <div class="songlist"><img class="invert"src="https://cdn-icons-png.flaticon.com/512/2995/2995038.png
+            " alt="music">
+        animal song son lo jara
+        <div class="music1">Play Now <img class="invert" src="https://cdn-icons-png.flaticon.com/128/8029/8029490.png" alt="" onclick="main()" ondblclick="stop()"></div></div>
+    
+        <div class="songlist"><img class="invert"src="https://cdn-icons-png.flaticon.com/512/2995/2995038.png
+            " alt="music">
+        animal song son lo jara
+        <div class="music1">Play Now <img class="invert" src="https://cdn-icons-png.flaticon.com/128/8029/8029490.png" alt="" onclick="main()" ondblclick="stop()"></div></div>
+    
+        <div class="songlist"><img class="invert"src="https://cdn-icons-png.flaticon.com/512/2995/2995038.png
+            " alt="music">
+        animal song son lo jara
+        <div class="music1">Play Now <img class="invert" src="https://cdn-icons-png.flaticon.com/128/8029/8029490.png" alt="" onclick="main()" ondblclick="stop()"></div></div>
+    
+        <div class="songlist"><img class="invert"src="https://cdn-icons-png.flaticon.com/512/2995/2995038.png
+            " alt="music">
+        animal song son lo jara
+        <div class="music1">Play Now <img class="invert" src="https://cdn-icons-png.flaticon.com/128/8029/8029490.png" alt="" onclick="main()" ondblclick="stop()"></div></div>
+    
+        <div class="songlist"><img class="invert"src="https://cdn-icons-png.flaticon.com/512/2995/2995038.png
+            " alt="music">
+        animal song son lo jara
+        <div class="music1">Play Now <img class="invert" src="https://cdn-icons-png.flaticon.com/128/8029/8029490.png" alt="" onclick="main()" ondblclick="stop()"></div></div></div>
+    
+    
+    
+    
+    
+    </div>
+    <!--for search tag use-->
+    
+    <div class="right border"  id="searchdiv" style="display: none; background-color: rgb(52, 52, 61); padding-left: 332px;"> <div style="font-size:  29px; position: fixed;"> search: <input type="search" name="search" style=" width: 756px; height:6vh; position:fixed; background-color: rgb(216, 231, 231); font-size: 20px;" placeholder="What do you want to listen to ?"></div><br><br>
+  <p style="font-size: 25px;"> Browse All:</p>
+ <!-- <div class="song"><div class="play invert "><img src="https://cdn-icons-png.flaticon.com/128/483/483054.png" alt="play"> </div> <img class="imga"  src="https://i.scdn.co/image/ab6765630000ba8a81f07e1ead0317ee3c285bfa
+ " alt="song1"></div> -->
+ <div class="search card1" style="display: flex; justify-content: center; align-items: center;">
+  <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(38, 130, 24); margin: 18px; border: 3px; border-radius: 10px;">
+    
+<p style=" padding: 23px; font-size: 20px;">MUSIC</p>
+   <div > <img  width="82px"  style=" right: 0%;  padding: auto;  transform: rotate(25deg);" src="https://i.scdn.co/image/ab6765630000ba8a81f07e1ead0317ee3c285bfa" alt="a" >
+   </div></div>
+  <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(241, 25, 39); margin: 18px; border: 3px; border-radius: 10px;">
+    <p style=" padding: 23px; font-size: 20px;">PODCASTS</p>
+      </div>
+      <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(68, 22, 237); margin: 18px; border: 3px; border-radius: 10px;">
+        <p style=" padding: 23px; font-size: 20px;">HINDI</p>
+          </div>
+          
+
+  </div>
+  <div class="search card1" style="display: flex; justify-content: center; align-items: center;">
+    <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(92, 13, 176); margin: 18px; border: 3px; border-radius: 10px;">
+  <p style=" padding: 23px; font-size: 20px;">ENGLISH</p>
+    </div>
+    <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(208, 0, 255); margin: 18px; border: 3px; border-radius: 10px;">
+      <p style=" padding: 23px; font-size: 20px;">CHILL</p>
+        </div>
+        <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(137, 29, 29); margin: 18px; border: 3px; border-radius: 10px;">
+          <p style=" padding: 23px; font-size: 20px;">POP</p>
+            </div>
+            
+  
+    </div>
+    <div class="search card1" style="display: flex; justify-content: center; align-items: center;">
+        <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(243, 189, 26); margin: 18px; border: 3px; border-radius: 10px;">
+      <p style=" padding: 23px; font-size: 20px;">MOOD</p>
+        </div>
+        <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(255, 76, 192); margin: 18px; border: 3px; border-radius: 10px;">
+          <p style=" padding: 23px; font-size: 20px;">HIP-HOP[</p>
+            </div>
+            <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(112, 150, 160); margin: 18px; border: 3px; border-radius: 10px;">
+              <p style=" padding: 23px; font-size: 20px;">CLASSICAL</p>
+                </div>
+                
+      
+        </div>
+        <div class="search card1" style="display: flex; justify-content: center; align-items: center;">
+          <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(108, 13, 13); margin: 18px; border: 3px; border-radius: 10px;">
+        <p style=" padding: 23px; font-size: 20px;">PARTY</p>
+          </div>
+          <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(215, 67, 22); margin: 18px; border: 3px; border-radius: 10px;">
+            <p style=" padding: 23px; font-size: 20px;">TRANDING</p>
+              </div>
+              <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(84, 5, 69); margin: 18px; border: 3px; border-radius: 10px;">
+                <p style=" padding: 23px; font-size: 20px;">SUMMER</p>
+                  </div>
+                  
+        
+          </div>
+          <div class="search card1" style="display: flex; justify-content: center; align-items: center;">
+            <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(13, 163, 133); margin: 18px; border: 3px; border-radius: 10px;">
+          <p style=" padding: 23px; font-size: 20px;">GAMING</p>
+            </div>
+            <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(107, 84, 99); margin: 18px; border: 3px; border-radius: 10px;">
+              <p style=" padding: 23px; font-size: 20px;">ROCK</p>
+                </div>
+                <div class="search card" style=" border: 5px;  width: 23vw; height: 26vh; background-color: rgb(14, 126, 107); margin: 18px; border: 3px; border-radius: 10px;">
+                  <p style=" padding: 23px; font-size: 20px;">FOCUS</p>
+                    </div>
+                    
+          
+            </div>
+</div>
+    
+    
+    <div class="right  border " id="homediv" style="padding-left: 322px;">
+        
+            <div class="arrow ">
+           <div class="top"> <button style="padding:4px; font-size: medium;" class="btn"> ALL</button><button style="padding:4px; font-size: medium;" class="btn">MUSIC</button><button style="padding:4px; font-size: medium;" class="btn">PODCASTS</button> <button style="padding:4px; font-size: medium;" class="btn"> PLAYLIST</button></div>    
+           <div>
+            <span><button onclick="window.location.href='singin.html';" class="btn">SING IN </button> </span>
+            <span><button onclick="window.location.href='login.html';" class="btn">LOG IN</button></span>
+            </div>
+        </div>
+
+        <div class="spotify "> <h2>Spotify Playlist: </h2></div>
+    
+<div class="box bg-grey ">
+
+<div class="songs">
+    
+ <div class="song"><div class="play invert "><img src="https://cdn-icons-png.flaticon.com/128/483/483054.png" alt="play"> </div> <img class="imga" src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9
+ " alt="song1" onclick="main1()" ondblclick="stop1()">
+ 
+ <div class="card">
+    <h3>animal hits song</h3>
+    Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+
+
+ </div>
+ </div>
+     <div class="song"> <img class="imga" src="https://i.scdn.co/image/ab67616d00001e021a8c4618eda885a406958dd0
+     " alt="song1" onclick="main2()" ondblclick="stop2()">
+     <div class="card">
+        <h3>animal hits song</h3>
+        Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+    
+    
+     </div>
+     
+</div>
+    <div class="song"> <img class="imga" src="https://i.scdn.co/image/ab67706f0000000275da071e376f9e6bf9c05713
+
+    " alt="song1" onclick="main()" ondblclick="stop()">
+    <div class="card">
+       <h3>animal hits song</h3>
+       Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+   
+   
+    </div>
+    </div>
+    
+        <div class="song"> <img class="imga" src="	https://i.scdn.co/image/ab67706f000000027da11e4e02c0da2f543ea20f
+        " alt="song1" onclick="main3()" ondblclick="stop3()">
+        <div class="card">
+           <h3>animal hits song</h3>
+           Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+       
+       
+        </div>
+        
+   </div>
+   
+    <div class="song"> <img class="imga" src="https://i.scdn.co/image/ab67656300005f1fe46079c9a5b7c544c6922ac9
+    " alt="song1" onclick="main()" ondblclick="stop()">
+    <div class="card">
+       <h3>animal hits song</h3>
+       Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+   
+   
+    </div>
+    </div>
+    <h2>Made For You:</h2>
+        <div class="song"> <img class="imga" src="https://i.scdn.co/image/ab67656300005f1f36dbb0b2d65004488fcc322f
+        " alt="song1" onclick="main()" ondblclick="stop()">
+        <div class="card">
+           <h3>animal hits song</h3>
+           Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+       
+       
+        </div>
+        
+   </div>
+   
+   <div class="song"><img class="imga" src="https://i.scdn.co/image/ab67656300005f1f9114d741247e2d26a7b48b6f
+    " alt="song1" onclick="main()" ondblclick="stop()">
+    <div class="card">
+       <h3>animal hits song</h3>
+       Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+   
+   
+    </div>
+    </div>
+        <div class="song"> <img class="imga" src="	https://i.scdn.co/image/ab67656300005f1f3c0cd1efd66f78f05f13632a
+        " alt="song1" onclick="main()" ondblclick="stop()">
+        <div class="card">
+           <h3>animal hits song</h3>
+           Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+       
+       
+        </div>
+        
+   </div>
+   <div class="song"><img class="imga" src="https://i.scdn.co/image/ab67616d00001e02021d7017f73387b008eab271" alt="song1" onclick="main1()" ondblclick="stop1()">
+   
+   <div class="card">
+      <h3>animal hits song</h3>
+      Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+  
+  
+   </div>
+   </div>
+   <h2> MOOD:</h2>
+       <div class="song"> <img class="imga" src="https://i.scdn.co/image/ab67706f00000002d8fe1c03afc22a01d5109233
+       " alt="song1" onclick="main2()" ondblclick="stop2()">
+       <div class="card">
+          <h3>animal hits song</h3>
+          Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+      
+      
+       </div>
+       
+  </div>
+  <div class="song"><img class="imga" src=" https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d" alt="song1" onclick="main1()" ondblclick="stop1()">
+ 
+ <div class="card">
+    <h3>animal hits song</h3>
+    Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+
+
+ </div>
+ </div>
+     <div class="song"> <img class="imga" src="https://i.scdn.co/image/ab67706f00000002c1811d50fbd4df02ea3b06a3
+     " alt="song1" onclick="main2()" ondblclick="stop2()">
+     <div class="card">
+        <h3>animal hits song</h3>
+        Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+    
+    
+     </div>
+     
+</div>
+
+<div class="song"><img  class="imga" src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="song1" onclick="main1()" ondblclick="stop1()">
+ 
+ <div class="card">
+    <h3>animal hits song</h3>
+    Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+
+
+ </div>
+ </div>
+     <div class="song"> <img class="imga" src="https://i.scdn.co/image/ab67616d00001e021a8c4618eda885a406958dd0
+     " alt="song1" onclick="main2()" ondblclick="stop2()">
+     <div class="card">
+        <h3>animal hits song</h3>
+        Lorem ipsum dolor sit  my nameyb  uyfu hycc .
+    
+    
+     </div>
+     
+</div>
+
+
+
+
+   
+</div>
+
+    </div>
+    <div class="playbars"  style="position:relative; background-color: rgb(64, 67, 69);">
+        <div class="songinfo">Here show song name<audio id="audio" src="https://css374.gaanacdn.com/dist/web/runtime-bundle-bf176cd1.js"></audio>
+        </div>
+   <div class="playbar" style="width: 999px;"><div><img src=" " alt=""></div>
+        
+        <img src="https://cdn-icons-png.flaticon.com/128/8839/8839055.png
+        " alt="pre">
+        <img id="first" src="https://cdn-icons-png.flaticon.com/128/8029/8029490.png" alt="play" onclick="main()"  ondblclick="stop()" >
+   <img src="https://cdn-icons-png.flaticon.com/128/3567/3567831.png" alt="next">
+   </div> <audio id="myaudio" src="songs/La La La - Neha Kakkar Ft. Arjun Kanungo_320(MyMp3Song).mp3"  ></audio>
+   <audio id="myaudio1" src=" songs/Wo-Haseen-Dard-De-Do (SongsMp3.Com).mp3"  ></audio>
+   <audio id="myaudio2" src=" songs/songa1.mp3"  ></audio>
+   <audio id="myaudio3" src="songs/Tum_Kyon_Chale__Aate_Ho_song__Lyrics_Whatsapp_status(360p).mp4 "  ></audio>
+
+</div></div>
+  </div></div>
+
+</div> 
+ 
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>

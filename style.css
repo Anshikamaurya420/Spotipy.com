@@ -1,0 +1,23 @@
+/*body{background-color: black;
+color: white;}
+img{color:white;}*/
+/*.border{border: 2px solid red;}
+.flex{display: flex;}
+.justify-center{justify-content:center;}
+.items-center{align-items: center;
+
+}*/
+*{margin: 0;
+padding: 0;}
+.left{width: 25vw;
+padding: 30px;}
+.right{width: 75vw;}
+.home ul li{width: 18px;
+list-style: none;
+display: flex;
+gap: 12px;
+padding-top: 14px;}
+.library{background-color: black;
+color:white;}
+.bg-grey{background-color: #121212;}
+.home{padding: 10px;}
